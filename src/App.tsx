@@ -3,7 +3,7 @@ import Button from "./components/Button";
 function App() {
   return (
     <div>
-      <Button>Kira's Button</Button>
+      <Button onClick={() => console.log("Clicked")}>Kira's Button</Button>
     </div>
   );
 }
